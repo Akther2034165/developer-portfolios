@@ -42,3 +42,30 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience-area {
+  margin-bottom: 50px;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.experience-div {
+  display: flex;
+  text-align: justify;
+}
+.ex-tit {
+  font-size: 30px;
+}
+.d {
+  padding-right: 50px;
+}
+.experience-item {
+  box-shadow: 10px 10px 35px rgb(161, 159, 159);
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%s;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border-left: 8px solid black;
+}
+footer p {
+  text-align: center;
+}
