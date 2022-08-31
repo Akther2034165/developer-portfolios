@@ -1,0 +1,39 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  
+}
+h1 {
+  font-size: 50px;
+}
+.orange {
+  color: #ffa500;
+}
+.hero-p {
+  line-height: 2;
+}
+.hero-section {
+  display: flex;
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 75%;
+  height: 490px;
+  margin-top: 10px;
+}
+.half-width a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  /* background-color: #ff7354; */
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
